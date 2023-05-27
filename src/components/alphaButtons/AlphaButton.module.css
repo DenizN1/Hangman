@@ -1,0 +1,8 @@
+.alphaButton{
+    background-color: blue;
+    margin: 0.5vw;
+}
+
+.alphaButton button{
+    padding: 1vw;
+}
