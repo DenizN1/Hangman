@@ -1,0 +1,34 @@
+.hiddenLetter {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.underline {
+  margin-top: 0.25rem;
+  width: 2rem;
+  height: 0.1rem;
+  color: black;
+  background-color: black;
+}
+
+@media only screen and (max-width: 801px) {
+  .hiddenLetter h2 {
+    font-size: larger;
+  }
+
+  .underline {
+    width: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 521px) {
+  .hiddenLetter h2 {
+    font-size: medium;
+  }
+
+  .underline {
+    width: 1rem;
+  }
+}
