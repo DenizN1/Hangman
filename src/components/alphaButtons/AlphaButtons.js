@@ -3,10 +3,6 @@ import classes from "./AlphaButtons.module.css";
 import { Link } from "react-router-dom";
 
 export default function AlphaButtons(props) {
-  function refreshPage() {
-    window.location.reload(false);
-  }
-
   return (
     <div className={classes.alphaButtons}>
       <div className={classes.alphabet}>
@@ -18,7 +14,7 @@ export default function AlphaButtons(props) {
           />
         ))}
       </div>
-      <Link onClick={refreshPage}>
+      <Link onClick={props.refreshPage}>
         <img
           className={classes.refreshButton}
           src={process.env.PUBLIC_URL + "/refreshIcon.png"}

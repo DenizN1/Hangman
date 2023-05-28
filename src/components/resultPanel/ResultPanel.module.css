@@ -1,0 +1,9 @@
+.resultPanel h3{
+    font-weight: 400;
+}
+
+.resultPanel button{
+    padding: 1vw;
+    color: white;
+    background-color: rgb(129, 130, 129);
+}

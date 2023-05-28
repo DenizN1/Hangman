@@ -1,0 +1,21 @@
+.revealedWord{
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 25rem 0 0 0 rgb(102, 102, 102) inset, -25rem 0 0 0 rgb(102, 102, 102) inset;
+
+    transition: ease-in-out 1s;
+}
+
+.revealedWord:hover{
+    background-color: white;
+    box-shadow: -25rem 0 0 0 rgb(255, 255, 255) inset, -25rem 0 0 0 rgb(102, 102, 102) inset;
+    transition: ease-in-out 1s;
+}
+
+.revealedWord h1{
+    margin: 0px;
+    font-weight: 400;
+
+    color: rgb(102, 102, 102);
+}
